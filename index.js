@@ -7,8 +7,8 @@ app.use(express.json());
 const genres = [
     { id: 0, name: 'Dont look up' },
     { id: 1, name: 'Boyka' },
-    { id: 2, name: '100 Shades of Gray' },
-    { id: 3, name: 'Doktori i mrekullive' },
+    { id: 2, name: '100 Days' },
+    { id: 3, name: 'Far from home' },
 ];
 
 app.get('/', (request, response) => {
